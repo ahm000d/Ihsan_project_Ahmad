@@ -1,0 +1,230 @@
+
+/********* Start Homepage *********/
+header {
+    background-color: rgba(5, 67, 78, 0.801);
+}
+header a{
+    color: white;
+}
+.header2{
+    background-color: rgba(228, 220, 220, 0.781); 
+    color: white;
+}
+.header2 li {
+    color: #22626e;
+}
+.img_home{
+    width: 100%;
+}
+.unter_header_p_home {
+    text-align: center;
+    padding: 50px;
+    color: rgb(4, 83, 114);
+    margin-bottom: 20px;
+}
+.btn {
+    background-color: rgba(5, 67, 78, 0.801);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgba(5, 67, 78, 0.801);
+    color: #29ABE2;
+    
+}
+footer {
+    background-color: rgba(5, 67, 78, 0.801);
+}
+
+/********* End Homepage *********/
+
+/********* Start Media Query *********/
+
+@media  (max-width: 906px) , (min-width:551px) {
+    .header_c{
+        
+    }
+}
+
+/********* End Media Query *********/
+
+/********* Start humanitarian Cases *********/
+.header_c {
+    height: 50px;
+    color: white;
+}
+.social_media_nav1 {
+    margin-right: 40px;
+    font-size: 20px;
+}
+.social_media_nav1 a {
+    padding-right: 10px;
+    color: white;
+}
+.ul_languages {
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+.ul_languages_li  {
+    border-left: 1px solid;
+}
+.ul_navbar_li{
+    border-left: 1px solid;
+}
+.nav2 {
+    padding-right: 80px;
+}
+#navbarNav {
+    padding-right: 20px;
+}
+#navbarNav li{
+    padding-right: 30px;
+}
+.social_media_li:hover {
+    color: #29ABE2;
+}
+
+.nav2_btn2 {
+    margin-left: 60px;
+    margin-right: 5px;
+}
+
+.p_center{
+    font-size: 20px;
+}
+.paragraph_h {
+    margin-top: 40px;
+}
+.card {
+    border: none;
+}
+.ahmad_div_cases {
+    background-image: url(../Datai/cases_background.jpg) ;
+    max-height: 400px;
+    max-width: 110%;
+    background-position:center;
+    background-size: cover;
+    color: white;
+    /* font-size: 15px; */
+    /* font-family:'Tajawal'; */
+    /* line-height: 1.7; */
+    /* font-weight:100; */
+    background-attachment:local;
+}
+.p_cases {
+    margin: 20px 0;
+    padding: 10px;
+    border-right: 1px solid white;
+    align-self: center;
+}
+.ahmad_img_cases {
+    border-radius: 20px;
+}
+.ahmad_btn_end {
+    margin:3% 45%;
+}
+.social_media_footer a{
+    color: white;
+}
+.social_media_footer a:hover {
+    color: #22626e;
+}
+.left a{
+    padding-right: 5px;
+}
+.progress-bar {
+    background-color: #0d5b6b;
+}
+/*********End humanitarian Cases *********/
+
+/*********Start Cases Template *********/
+.img_case {
+    width: 700px;
+}
+.card-title {
+    color: #0d5b6b;
+}
+/*********End Cases Template *********/
+
+/********* Start About Us *********/
+.ahmad_about_us_video {
+    width: 100%;
+    height: 400px;
+}
+.ahmad_about_us_img_ihsan_team {
+    width: 300px;
+    height: 200px;
+}
+.ahmad_social_media{
+    color: #22626e;
+    margin:20px 44% ;
+    font-size: 35px
+}
+/********* End About Us *********/
+
+/********* Start contact-us *********/
+.div_unter_header {
+    width:100%;
+    background-image: url(../Datai/ihsan_team_.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.unter_header_p {
+    text-align: center;
+    
+    height: 500px;
+    padding: 50px;
+    color: rgb(4, 83, 114);
+
+    margin-bottom: 100px;
+}
+.card_icon {
+    font-size: 50px;
+    color: #0d5b6b;
+    
+}
+/********* End contact-Us *********/
+
+/********* Start Login *********/
+.div_login {
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #0dcaf02d;
+    margin:70px 32.5% 70px 32.5%;
+    width: 35%;
+    height: 550px;
+    border: 1px solid none;
+    border-radius: 3%;
+    padding: 25px;
+}
+
+.login_logo {
+    width: 120px;
+}
+.div_login_header {
+    /* padding: 20px; */
+    text-align: center;
+
+}
+.div_btn {
+    text-align: center;
+}
+/********* End Login *********/
+
+/********* Start Registration *********/
+.div_login_reg {
+    height: 620px;
+}
+/********* End Registration *********/
+
+/********* Start usage Policy *********/
+.div_p_policy {
+    margin: 50px 100px;
+}
+.p_policy{
+    margin-bottom:50px;
+}
+/********* End usage Policy *********/
